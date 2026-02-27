@@ -9,12 +9,12 @@ import { GraduationCap, Zap, Blocks, Award } from 'lucide-react';
 const roles = [
     "Business Development",
     "Sales & Marketing",
-    "AI automations"
+    "GTM Engineer"
 ];
 
 const stats = [
     { label: "Placement Support", subtext: "You don’t just learn. We actively support you in securing job interviews and cracking them.", icon: GraduationCap },
-    { label: "Recruiter Connect", subtext: "Get direct access to recruiter networks and hiring companies looking for business talent.", icon: Zap },
+    { label: "Hands On Execution", subtext: "Build real workflows, outreach systems, and AI powered processes during the program.", icon: Zap },
     { label: "15+ AI Tools", subtext: "Learn and practice with the same AI tools modern teams use every day.", icon: Blocks },
     { label: "Industry Certification", subtext: "Earn a certification that validates your practical, job-ready skills.", icon: Award },
 ];
@@ -62,11 +62,14 @@ export default function Hero() {
                             India’s First Execution Focused Business School
                         </p>
                         <h1 className="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-45xl text-black">
-                            Get Hired in <span className="text-violet-600">Business Roles</span> in <span className="text-violet-600">AI-Driven</span> World.
+                            Get Hired in <span className="text-violet-600">Business Roles</span> at Top<span className="text-violet-600"> Software </span>and  <span className="text-violet-600">SaaS </span>Companies.
                         </h1>
+                        {/* <h1 className="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-45xl text-black">
+                            Get Hired in <span className="text-violet-600">Business Roles</span> in <span className="text-violet-600">AI-Driven</span> World.
+                        </h1> */}
 
                         <p className="mt-4 max-w-3xl text-base text-muted sm:text-lg">
-                            A 3-week program taught by IIT and ISB alumni that trains you on the exact AI tools, outreach systems, and execution skills companies are actively hiring for, with placement support until you land the role. <br />
+                            A <span className="text-black font-bold bg-violet-200 px-2 md:py-1 rounded-xl">3-week program</span>  taught by IIT and ISB alumni that trains you on the exact AI tools, outreach systems, and execution skills companies are actively hiring for, with placement support until you land the role. <br />
                             <span className="text-black text-2xl font-semibold">Build a Career in Business roles such as </span><span className="text-violet-600 text-2xl font-semibold bg-violet-100 px-2 md:py-1 border-r-4">{text}.</span><span className="animate-pulse"></span>
                         </p>
 
@@ -75,13 +78,13 @@ export default function Hero() {
                         <div className="mt-8 flex flex-col min-[420px]:flex-row gap-2">
                             <SparkleButton
                                 href="#final-cta"
-                                className="rounded-2xl bg-primary px-7 py-3 text-center font-semibold text-white shadow-md hover:shadow-lg transform transition duration-200 ease-out hover:scale-102 focus:outline-none focus:ring-4 focus:ring-primary/30 active:translate-y-1"
+                                className="rounded-xl bg-primary px-12 py-3 text-center font-semibold text-white shadow-md hover:shadow-lg transform transition duration-200 ease-out hover:scale-102 focus:outline-none focus:ring-4 focus:ring-primary/30 active:translate-y-1"
                             >
                                 Enroll Now
                             </SparkleButton>
                             <SparkleButton
                                 href="#modules"
-                                className="rounded-2xl border border-black bg-background/0 px-7 py-3 text-center font-semibold text-foreground transition duration-200 ease-out hover:bg-primary/5 hover:border-primary/30 hover:scale-102 focus:outline-none focus:ring-2 focus:ring-black active:translate-y-1"
+                                className="rounded-xl border border-black bg-background/0 px-7 py-3 text-center font-semibold text-foreground transition duration-200 ease-out hover:bg-primary/5 hover:border-primary/30 hover:scale-102 focus:outline-none focus:ring-2 focus:ring-black active:translate-y-1"
                             >
                                 View Curriculum
                             </SparkleButton>
