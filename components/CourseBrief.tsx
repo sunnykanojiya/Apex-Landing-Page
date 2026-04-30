@@ -9,6 +9,7 @@ const slides = [
     { title: "Working Professionals", image: "/working_professionals.png" },
 ];
 
+
 export default function CourseBrief() {
     const programName = "AI-Driven Business Career";
     const mode = "Life-time Access";
